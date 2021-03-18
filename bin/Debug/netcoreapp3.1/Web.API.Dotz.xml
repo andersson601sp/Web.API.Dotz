@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Web.API.Dotz</name>
+    </assembly>
+    <members>
+        <member name="P:Web.API.Dotz.Dtos.UserAddressDto.Id">
+            <summary>
+            Id Endereço
+            </summary>
+        </member>
+        <member name="P:Web.API.Dotz.Dtos.UserAddressDto.Street">
+            <summary>
+            Id Endereço
+            </summary>
+        </member>
+        <member name="P:Web.API.Dotz.Dtos.UserAddressDto.Number">
+            <summary>
+            Rua
+            </summary>
+        </member>
+        <member name="P:Web.API.Dotz.Dtos.UserAddressDto.District">
+            <summary>
+            Numero
+            </summary>
+        </member>
+        <member name="P:Web.API.Dotz.Dtos.UserAddressDto.City">
+            <summary>
+            Bairro
+            </summary>
+        </member>
+        <member name="P:Web.API.Dotz.Dtos.UserAddressDto.ZipCode">
+            <summary>
+            CEP
+            </summary>
+        </member>
+        <member name="P:Web.API.Dotz.Dtos.UserAddressDto.State">
+            <summary>
+            Estado
+            </summary>
+        </member>
+        <member name="P:Web.API.Dotz.Dtos.UserAuthDto.FirstName">
+            <summary>
+            Nome usuario
+            </summary>
+        </member>
+        <member name="P:Web.API.Dotz.Dtos.UserAuthDto.LastName">
+            <summary>
+            SobreNome usuario
+            </summary>
+        </member>
+        <member name="P:Web.API.Dotz.Dtos.UserAuthDto.Role">
+            <summary>
+            perfil usuario
+            </summary>
+        </member>
+        <member name="P:Web.API.Dotz.Dtos.UserAuthDto.Token">
+            <summary>
+            Token
+            </summary>
+        </member>
+        <member name="P:Web.API.Dotz.Dtos.UserDto.Id">
+            <summary>
+            Id usuario
+            </summary>
+        </member>
+        <member name="P:Web.API.Dotz.Dtos.UserDto.FirstName">
+            <summary>
+            Nome usuario
+            </summary>
+        </member>
+        <member name="P:Web.API.Dotz.Dtos.UserDto.LastName">
+            <summary>
+            SobreNome usuario
+            </summary>
+        </member>
+        <member name="P:Web.API.Dotz.Dtos.UserDto.Username">
+            <summary>
+            Login
+            </summary>
+        </member>
+        <member name="P:Web.API.Dotz.Dtos.UserDto.Password">
+            <summary>
+            senha
+            </summary>
+        </member>
+        <member name="P:Web.API.Dotz.Dtos.UserDto.Role">
+            <summary>
+            perfil usuario
+            </summary>
+        </member>
+        <member name="P:Web.API.Dotz.Dtos.UserDto.Token">
+            <summary>
+            Token
+            </summary>
+        </member>
+        <member name="T:Web.API.Dotz.Models.AuthenticateModel">
+            <summary>
+            Autenticação do usuario
+            </summary>
+        </member>
+        <member name="P:Web.API.Dotz.Models.AuthenticateModel.Username">
+            <summary>
+            Login de acesso
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Web.API.Dotz.Models.AuthenticateModel.Password">
+            <summary>
+            Senha de acesso
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Web.API.Dotz.Models.OrderItemsModel.Id">
+            <summary>
+            Id 
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Web.API.Dotz.Models.OrderItemsModel.OrderId">
+            <summary>
+            Id Pedido
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Web.API.Dotz.Models.OrderItemsModel.ProductId">
+            <summary>
+            Id Produto
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Web.API.Dotz.Models.OrderItemsModel.Description">
+            <summary>
+            Desccricao Produto
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:Web.API.Dotz.Models.OrderModel">
+            <summary>
+            Pedido
+            </summary>
+        </member>
+        <member name="P:Web.API.Dotz.Models.OrderModel.Id">
+            <summary>
+            Id Pedido
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Web.API.Dotz.Models.OrderModel.Number">
+            <summary>
+            Numero do pedido
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Web.API.Dotz.Models.OrderModel.UserId">
+            <summary>
+            Id Usuario
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Web.API.Dotz.Models.OrderModel.Delivery">
+            <summary>
+            Status do Pedido
+            </summary>
+            <value></value>          
+        </member>
+        <member name="P:Web.API.Dotz.Models.OrderModel.OrderItems">
+            <summary>
+            Items do pedido
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:Web.API.Dotz.Models.ProductModel">
+            <summary>
+            Produtos Dotz
+            </summary>
+        </member>
+        <member name="P:Web.API.Dotz.Models.ProductModel.Id">
+            <summary>
+            Id Produto
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Web.API.Dotz.Models.ProductModel.Description">
+            <summary>
+            Descrição do Produto
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Web.API.Dotz.Models.ProductModel.Dotz">
+            <summary>
+            Valor do Produto em Dotz
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:Web.API.Dotz.Models.UserDotzModel">
+            <summary>
+             Dotz
+            </summary>
+        </member>
+        <member name="P:Web.API.Dotz.Models.UserDotzModel.Id">
+            <summary>
+            Id 
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Web.API.Dotz.Models.UserDotzModel.Dotz">
+            <summary>
+            Qunatidade de Dotz
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Web.API.Dotz.Models.UserDotzModel.UserId">
+            <summary>
+            Id Usuario
+            </summary>
+            <value></value>
+        </member>
+    </members>
+</doc>

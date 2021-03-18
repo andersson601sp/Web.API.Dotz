@@ -1,0 +1,41 @@
+version: "3.0"
+
+volumes: 
+    DotzDb:
+
+networks: 
+    mysqlNET:
+    dotzNET:
+
+services: 
+
+    mysql:
+        image: "mysql:5.7"
+        container_name: mysql_
+        ports: 
+            - "3306:3306"
+        volumes: 
+            - DotzDb:/var/lib/mysql
+        networks: 
+            - mysqlNET
+        environment: 
+            - MYSQL_USER=root 
+            - MYSQL_PASSWORD=000000 
+            - MYSQL_ROOT_PASSWORD=000000 
+            - MYSQL_ROOT_HOST=%
+            - bind-address:0.0.0.0 
+    
+    dotz:
+        build:
+            context: .
+            dockerfile: DockerFile
+        container_name: dotz
+        networks: 
+            - mysqlNET
+            - dotzNET
+        ports: 
+            - 5000:80
+        environment: 
+            - DBHOST=mysql
+        depends_on: 
+            - mysql
